@@ -1,5 +1,7 @@
 var currentQuestionNumber = 0;
 
+
+// Question placeholders
 var questionObjects = [
   {
     question: "This is the first question"
@@ -7,11 +9,9 @@ var questionObjects = [
   {
     question: "This is the second question"
   },
-
   {
     question: "This is the third question"
   },
-
   {
     question: "This is the fourth question"
   }
