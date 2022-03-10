@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,28 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/style.css">
-  <title>Timed Tech Test</title>
+  <title>Code Quiz</title>
 </head>
 
 <body>
-  <header>
-    <h3>View Highscores</h3>
-    <div>
-      <h3>Time Left: 0</h3>
-    </div>
-  </header>
-  <main>
-    <h2>Coding Assessment</h2>
-    <h3>JavaScript Essentials</h3>
-    <p>This quiz will test your knowledge of JavaScript fundamentals.</p>
-    <br />
-    <button>Start quiz</button>
-  </main>
+  <div class="header">
+    <p>View high scores</p>
+    <p>Time:100</p>
+  </div>
+  <div class="welcome">
+    <h2>Coding Quiz Challenge</h2>
+    <p>This quiz will test your knowledge of JavaScript fundamentals.
+    </p>
+    <button class="startbutton">Start Quiz</button>
+  </div>
+  <div class="question">
+    <h3 id="questionText">This is a question</h3>
+    <button id="option1" class="optionBtn">Option 1</button>
+    <button id="option2" class="optionBtn">Option 2</button>
+    <button id="option3" class="optionBtn">Option 3</button>
+    <button id="option4" class="optionBtn">Option 4</button>
+    <hr />
+    <p>Wrong!</p>
+  </div>
   <noscript>Sorry, looks like your browser may not support JavaScript, or JavaScript is disabled. <a
       href="https://activatejavascript.org/en/instructions">Learn how to activate and enable
       JavaScript in your browser.</a></noscript>
-
-  <script src="/script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
